@@ -3,19 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:description" content="Esto es una prueba">
-    <meta property="og.title" content="formulario"
+    <meta property="og:description" content="ClanPixel tienda de videojuegos online">
+    <meta property="og.title" content="ClanPixel"
     <meta property="og:image" content="https://github.com/MidnightEdu00/lenguaje1/blob/main/de7f3dd97cdef5571580f17e05f3bbfa.jpg">
     <meta property="og.type" content="website">
     <meta property="og:url" content="https://github.com/MidnightEdu00/lenguaje1.git"
 
-    <title>formulario</title>
-</head>
-<body style="border: solid green;">
+<body>
+<!-- En la parte superior da opcion a buscar el producto que estas buscando -->
+<section class="logo" style="border: solid blue">ClanPixel
+
+    <form action="">
+        <input type="text" name="q" placeholder="Buscar productos...">
+         <button type="submit">Buscar</button>
+    </form>
+
+</section>
+
+<!-- En primer plano se debe mostrar las futuras entregar y promociones disponibles -->
+<section class="promociones">
+  <div class="promo-principal" style="border: solid green">
+    <img src="D:\Lenguajes\eldenring-portada.jpg" alt="Promoción 1" style="width: 800px;">
+    <div class="promo-texto">
+      <h1>Descuento del 15% en la precompra</h1>
+      <p>Disponibilidad limitada por pais</p>
+    </div>
+  </div>
+  <div class="promo-secundario" style="border: solid red">
+    <img src="D:\Lenguajes\TLOU2 portada.jpg" alt="Promoción 2" style="width: 200px;">
+    <div class="promo-texto">
+      <h1>50% de descuento!</h1>
+      <p>Disponible hasta el 31 de mayo a las 22:00 horas</p>
+    </div>
+  </div>
+</section>
+
+<!-- Pie de la pagina, dedicado a servicio al cliente -->
+<footer class="pie-pagina" style="border: solid black">
+  <section class="contenedor-footer">
     <div>
-       <label for=""> Nombre </label>
-       <input type="text" id="name">
+      <h1>ClanPixel</h1>
+      <p>&copy; 2025 ClanPixel. Todos los derechos reservados.</p>
+    </div>
+    <div>
+      <h1>Servicio al Cliente</h1>
+      <ul>
+        <li>Contacto</li>
+        <li>Preguntas frecuentes</li>
+        <li>Devoluciones</li>
+      </ul>
     </div>
 
+    <div>
+      <h1>Idioma</h1>
+      <ul>
+        <li>Español</li>
+        <li>English</li>
+        <li>Français</li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
 </body>
-</html> master main
+</html>
